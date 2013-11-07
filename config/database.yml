@@ -3,6 +3,9 @@ development:
   encoding: unicode
   database: db/helpmetravel_development
   pool: 5
+  port: 5432
+  username: postgres
+  password: swordofsnake
   timeout: 5000
 
 test:
@@ -10,6 +13,9 @@ test:
   encoding: unicode
   database: db/helpmetravel_test
   pool: 5
+  port: 5432
+  username: postgres
+  password: swordofsnake
   timeout: 5000
 
 production:
@@ -17,6 +23,9 @@ production:
   encoding: unicode
   database: db/helpmetravel_production
   pool: 5
+  port: 5432
+  username: postgres
+  password: swordofsnake  
   timeout: 5000
 
 # SQLite version 3.x
